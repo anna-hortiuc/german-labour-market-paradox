@@ -25,23 +25,33 @@ Germany does not lack people, it lacks people with the right qualification. Half
 
 *BA, Arbeitsmarkt nach Berufen, October 2026*
 
+![Unemployed vs vacancies by skill level](output/charts/01_mismatch.png)
+
 ### 2. Shortages follow the business cycle
 Shortage occupations: 178 (2019) → 126 (2020, Covid) → peak **202 (2022)** → 157 (2025).
 Most are at Fachkraft level (84 of 157). Shortages among Experten fell fastest since 2022 (40 → 25, −38%). Software development, for example, is no longer a shortage occupation.
 
+![Number of shortage occupations by skill level](output/charts/00_shortage_trend.png)
+
 ### 3. Production shrinks, work with people grows (2015–2025)
 Total employment grew by **+13.4%**. Five groups in material production shrank, among them metalworking (−17.2%, −228,000 jobs) and textiles (−18.8%). Product design and arts & crafts shrank too (−3.6%), and sales stagnated (+0.2%).
 Fastest growth came in **IT (+67.2%)**, education & social work (+43.8%, +669,000 jobs, the largest absolute gain) and healthcare (+24.6%).
+
+![Employment change 2015–2025 by occupation group](output/charts/02_shrinking_growing.png)
 
 ### 4. Growth and shortage do not always go together
 - **Growing & short:** healthcare, building services, education & social work
 - **Growing, no shortage:** IT (+67%, only 7% of its occupations in shortage), management, marketing
 - **Shrinking & still short:** metalworking (−17%), plastics & wood (−11%). One possible reason: workers leave faster than jobs disappear.
 
+![Growth × shortage matrix](output/charts/03_matrix.png)
+
 ### 5. The more automatable, the slower the growth
 Across 14 occupation segments, the share of automatable tasks (IAB, 2022) and employment growth are strongly negatively correlated (**r = −0.69**; −0.86 without IT).
 Production work: 87.9% automatable → −15%. Social & cultural services: 13.5% automatable → +39%.
 **Exception: IT.** Its automation potential rose most (largely due to generative AI), yet it grew fastest. Combined with the disappearing IT shortage, this may be an early signal of change.
+
+![Automation potential vs employment growth](output/charts/06_automation.png)
 
 ### 6. Unemployment risk depends on skill level, not on automation
 Unemployed per 100 employed: Fachkräfte in highly automatable jobs **4.0**, Helfer **16 to 40** at any automation level.
@@ -49,8 +59,12 @@ Unemployed per 100 employed: Fachkräfte in highly automatable jobs **4.0**, Hel
 ### 7. Shortage occupations pay slightly less, but wages there rise faster
 Median gross monthly wage, shortage vs. no shortage: Fachkräfte 3,763 € vs 3,932 € (−4%), Spezialisten 4,632 € vs 5,047 € (−8%). Wages in shortage occupations grew faster (+14.2% vs +10.4%). Nursing is an exception: it pays above average and is still short, so working conditions matter too.
 
+![Wages in shortage vs non-shortage occupations](output/charts/04_wages.png)
+
 ### 8. The paradox exists in every state
 In all 16 states there are far more unemployed per vacancy at Helfer level (7.7 in Bavaria to 39.8 in Berlin) than at Fachkraft level (1.4 to 5.0). Hessen: 4.8 overall, 11.3 for Helfer, 2.3 for Fachkräfte.
+
+![Unemployed per vacancy by state and skill level](output/charts/05_regions.png)
 
 ### 9. Demography affects all occupations
 22.4% of employees (7.8 million) are aged 55–64 and will retire within about ten years. Employment of people aged 65+ grew by 15.2% in one year. The share of workers aged 55+ is similar across low, medium and high automation potential (23–26%).
@@ -82,10 +96,11 @@ Full list: [`notes/sources.md`](notes/sources.md)
 
 ## Charts
 
-Interactive HTML charts in [`output/charts`](output/charts). Download a file and open it in a browser.
+PNG images are shown above. Interactive HTML versions are in [`output/charts`](output/charts): download a file and open it in a browser.
 
 | Chart | Notebook |
 |---|---|
+| Number of shortage occupations 2019–2025 | `01_load_engpassanalyse` |
 | Unemployed vs vacancies by skill level | `02_mismatch_by_level` |
 | Employment change 2015–2025 by occupation group | `03_shrinking_growing` |
 | Growth × shortage matrix (36 groups) | `04_matrix` |
