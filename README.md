@@ -108,6 +108,11 @@ PNG images are shown above. Interactive HTML versions are in [`output/charts`](o
 | Unemployed per vacancy by state (heatmap) | `06_regions` |
 | Automation potential vs employment growth | `07_automation` |
 
+## Video
+
+A 60-second animated summary of the key findings, in two formats: 4:5 for LinkedIn and 16:9 for YouTube and portfolios. See [`output/video`](output/video).
+Generated with [`src/make_linkedin_video.py`](src/make_linkedin_video.py) (Python, matplotlib, ffmpeg).
+
 ## Data sources
 
 Bundesagentur für Arbeit (Engpassanalyse, Arbeitsmarkt nach Berufen, Beschäftigungsstatistik, Strukturwandel nach Berufen, Entgeltatlas), IAB-Kurzbericht 5/2024. Details: [`notes/sources.md`](notes/sources.md)
@@ -118,7 +123,9 @@ Bundesagentur für Arbeit (Engpassanalyse, Arbeitsmarkt nach Berufen, Beschäfti
 data/raw/        original downloads (never edited)
 data/clean/      cleaned, merged data
 notebooks/       analysis, one notebook per question (01–07)
-output/charts/   interactive charts (HTML)
+output/charts/   charts (PNG + interactive HTML)
+output/video/    LinkedIn video (4:5) and 16:9 version
+src/             script that renders the video
 notes/           sources and limitations
 ```
 
@@ -127,6 +134,8 @@ notes/           sources and limitations
 ```bash
 pip install -r requirements.txt
 ```
+
+Video rendering also requires [ffmpeg](https://ffmpeg.org/).
 
 ## Status
 
