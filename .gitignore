@@ -14,3 +14,6 @@ Thumbs.db
 
 # Large raw files (uncomment if needed)
 # data/raw/*.xlsx
+
+# IDE
+.idea/
