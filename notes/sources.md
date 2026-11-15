@@ -16,6 +16,7 @@ Record every file: source, link, download date, notes.
 |                                              | KldB 2010 classification | | | key for merging |
 | kldb2010-zeitreihe-d-0-xlsx.xlsx | BA – Beschäftigte nach Berufen (KldB 2010), Zeitreihe Quartalszahlen | https://statistik.arbeitsagentur.de | 2026-11-15 | Germany, 36 occupation groups, 2012–03/2026 |
 | swb_*.csv (4 files) | BA – Strukturwandel nach Berufen (dashboard) | https://statistik.arbeitsagentur.de/DE/Navigation/Statistiken/Interaktive-Statistiken/Strukturwandel-Berufe/Strukturwandel-Berufe-Nav.html | 2026-11-15 | by IAB substitution potential 2022; 14 segments; core group only |
+| laenderreport_2026q1.xlsx | BA – Länderreport über Beschäftigte, Deutschland | https://statistik.arbeitsagentur.de | 2026-11-15 | March 2026; age, qualification; no age × occupation |
 
 ## Limitations to keep in mind
 
@@ -26,4 +27,4 @@ Record every file: source, link, download date, notes.
 - BA data barely covers civil servants (Beamte), e.g. school teachers: no shortage in BA data ≠ no shortage in reality.
 - Some indicator values look implausible (e.g. vacancy time 0 days for train drivers) and must be checked.
 - Employment totals differ between files: Zeitreihe counts all SvB (34.9 M), Strukturwandel only the "core group" (32.3 M); do not compare levels across files.
-
+- 
