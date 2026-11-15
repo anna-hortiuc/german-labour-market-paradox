@@ -14,6 +14,7 @@ So this project combines both.
 1. **Today:** Why do ~3 million unemployed people coexist with persistent shortages in specific occupations?
 2. **Anatomy of the mismatch:** How much of the gap is qualification, region, age/demography or working conditions?
 3. **Tomorrow:** Will AI and automation shrink the mismatch, or deepen it?
+4. **Shrinking and growing occupations:** Which of the ~390 occupations are shrinking, which are growing, and which new ones are appearing?
 
 ## Hypotheses
 
@@ -21,6 +22,7 @@ So this project combines both.
 - H2: Occupations with high automation potential are rarely shortage occupations.
 - H3: Shortage occupations have an older workforce, so demography will widen the gap.
 - H4: Part of the "shortage" reflects pay and working conditions, not only a lack of people.
+- H5: Shrinking occupations are concentrated in routine office and production work; growing ones in care, technical crafts and specialised IT.
 
 ## Data sources
 

@@ -20,3 +20,6 @@ Record every file: source, link, download date, notes.
 - Only ~half of vacancies are reported to the BA.
 - Job-Futuromat measures technical potential, not job loss.
 - BA rounds values to multiples of ten for statistical confidentiality.
+- From 2025 on, BA no longer lists occupations without a rating ("keine Bewertung möglich"); compare years using rated occupations only.
+- BA data barely covers civil servants (Beamte), e.g. school teachers: no shortage in BA data ≠ no shortage in reality.
+- Some indicator values look implausible (e.g. vacancy time 0 days for train drivers) and must be checked.
